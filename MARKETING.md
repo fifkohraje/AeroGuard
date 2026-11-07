@@ -41,6 +41,30 @@ Ready-to-use marketing copy and assets for promoting AeroGuard.
 - 🖥️ **Aurora UI** — ring gauge, scan console, live event feed
 - 🔒 **100% local processing** — your files never leave your PC
 
+## Hashtags
+
+### Core (always use)
+`#AeroGuard #Antivirus #WindowsSecurity #CyberSecurity #MalwareProtection #InfoSec`
+
+### Tech audience
+`#CSharp #PowerShell #WinForms #MalwareAnalysis #ThreatDetection #PEAnalysis #SHA256 #Heuristics`
+
+### General audience
+`#Windows11 #Privacy #SecurityTools #EndpointSecurity #RealTimeProtection #VirusScanner`
+
+### Platform-specific sets
+
+**X / Twitter (max 3–5 tags per post):**
+`#AeroGuard #Antivirus #WindowsSecurity #CyberSecurity #MalwareProtection`
+
+**LinkedIn (3–5 professional tags):**
+`#CyberSecurity #EndpointSecurity #ThreatDetection #WindowsSecurity #InfoSec`
+
+**Discord / forums (2–4 tags):**
+`#Antivirus #Windows #SecurityTools #MalwareProtection`
+
+> Note: GitHub itself doesn't index hashtags — it uses **topics** for search. AeroGuard already has 20 topics configured (Settings → Topics), which is the maximum. Hashtags above are for Reddit/X/LinkedIn/Discord promotion.
+
 ## Social Posts
 
 ### Reddit (r/antivirus, r/cybersecurity, r/windows)
@@ -69,10 +93,26 @@ Ready-to-use marketing copy and assets for promoting AeroGuard.
 > ✅ 100% local
 >
 > Free tier available → https://github.com/fifkohraje/AeroGuard
+>
+> #AeroGuard #Antivirus #WindowsSecurity #CyberSecurity #MalwareProtection
 
 ### Discord / Forum
 
 > **AeroGuard** — lightweight Windows antivirus with layered detection (signatures + heuristics + deep scan). Real-time protection for the folders malware targets first, quarantine vault, modern UI. Free tier, no cloud scanning — everything stays local. Check it out: https://github.com/fifkohraje/AeroGuard
+>
+> #Antivirus #Windows #SecurityTools #MalwareProtection
+
+### LinkedIn
+
+> 🛡️ Just released AeroGuard v1.10.7-A — a lightweight layered antivirus for Windows 10/11.
+>
+> Built around a multi-layer detection model: SHA-256 signature matching with a Bloom pre-filter, advanced PE diagnostics, script/shell heuristics, and deep inspection of NTFS Alternate Data Streams and ZIP archives — all 100% locally, with no file data leaving the machine.
+>
+> Highlights: real-time folder protection (Downloads, Desktop, Documents, Temp, Startup), quarantine vault with full threat breakdowns, and the modern Aurora UI.
+>
+> Free tier available → https://github.com/fifkohraje/AeroGuard
+>
+> #CyberSecurity #EndpointSecurity #ThreatDetection #WindowsSecurity #InfoSec
 
 ## Screenshot Captions
 
