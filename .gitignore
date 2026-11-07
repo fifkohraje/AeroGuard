@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*.vs
+*.suo
+*.user
+
+# Build output
+dist/
+build/
+*.exe
+*.dll
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

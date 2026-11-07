@@ -1,0 +1,42 @@
+name: CI - Verify AeroGuard
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Verify AeroGuard.exe exists
+        run: |
+          if (-not (Test-Path "./AeroGuard.exe")) {
+            echo "::error ::AeroGuard.exe not found!"
+            exit 1
+          }
+          Write-Host "AeroGuard.exe found OK"
+
+      - name: Verify README.md is present
+        run: |
+          if (-not (Test-Path "./README.md")) {
+            echo "::error ::README.md not found!"
+            exit 1
+          }
+          Write-Host "README.md found OK"
+
+      - name: Validate LICENSE exists
+        run: |
+          if (-not (Test-Path "./LICENSE")) {
+            echo "::error ::LICENSE not found!"
+            exit 1
+          }
+          Write-Host "LICENSE found OK"
+
+      - name: Print commit info
+        run: |
+          Write-Host "Current commit: $(git rev-parse --short HEAD)"
