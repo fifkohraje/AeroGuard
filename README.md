@@ -11,8 +11,22 @@ AeroGuard is a proprietary, lightweight, and layered antivirus solution specific
 
 It features deep scanning of NTFS ADS streams and ZIP archives without extraction, a quarantine vault, tray background execution, and Cloudflare Workers plan management.
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Overview](screenshots/01-main-ui.png) | ![Scan](screenshots/02-scan.png) |
+| **Overview** — interactive ring gauge, protection stats & live feed | **Scan console** — Quick Scan, Folder Scan & administrative Deep Scan |
+| ![Vault](screenshots/03-vault.png) | ![Activity](screenshots/04-activity.png) |
+| **Quarantine vault** — isolated files with restore/delete actions | **Activity log** — chronological engine events |
+| ![Detection](screenshots/05-detection.png) | ![Plans](screenshots/06-plans.png) |
+| **Advanced detection** — layers, engine diagnostics & self-test | **Plans & device** — license tiers and device registration |
+| ![Settings](screenshots/07-settings.png) | |
+| **Settings** — real-time monitoring, startup, monitored folders | |
+
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Core Features & Detection Layers](#core-features--detection-layers)
 - [Graphical User Interface ("Aurora")](#graphical-user-interface-aurora)
 - [Getting Started](#getting-started)
