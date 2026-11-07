@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Size](https://img.shields.io/badge/package-~14%20MB-blue)
+[![Download](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/fifkohraje/AeroGuard/releases/latest)
 
 AeroGuard is a proprietary, lightweight, and layered antivirus solution specifically designed for Windows environments. It combines deep static file inspection, rule-based heuristics, and asynchronous real-time file monitoring to detect and isolate malicious code before it executes.
 
